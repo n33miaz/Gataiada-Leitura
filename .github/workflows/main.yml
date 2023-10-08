@@ -23,7 +23,7 @@ jobs:
 
     - name: Install Dependencies
       run: |
-        cd path/to/your/project
+        cd $GITHUB_WORKSPACE
         bundle install
 
     - name: Build Jekyll Site
