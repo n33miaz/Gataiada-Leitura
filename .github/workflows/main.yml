@@ -36,8 +36,8 @@ jobs:
 
     - name: Deploy to GitHub Pages
       run: |
-        if [ -z "$GITHUB_TOKEN" ]; then
-          echo "Set the GITHUB_TOKEN secret in your repository settings."
+        if [ -z "$GH_PAGES_TOKEN" ]; then
+          echo "Set the GH_PAGES_TOKEN secret in your repository settings."
           exit 1
         fi
         cd $GITHUB_WORKSPACE
