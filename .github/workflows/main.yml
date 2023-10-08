@@ -27,7 +27,9 @@ jobs:
         bundle install
 
     - name: Build Jekyll Site
-      run: bundle exec jekyll build
+      run: |
+        cd $GITHUB_WORKSPACE
+        bundle exec jekyll build
 
     - name: Deploy to GitHub Pages
       run: |
@@ -35,6 +37,7 @@ jobs:
           echo "Set the GITHUB_TOKEN secret in your repository settings."
           exit 1
         fi
+        cd $GITHUB_WORKSPACE
         git config --global user.name "GitHub Actions"
         git config --global user.email "actions@users.noreply.github.com"
         git checkout main # substitua "main" pela branch principal
