@@ -22,7 +22,9 @@ jobs:
       run: gem install bundler
 
     - name: Install Dependencies
-      run: bundle install
+      run: |
+        cd path/to/your/project
+        bundle install
 
     - name: Build Jekyll Site
       run: bundle exec jekyll build
