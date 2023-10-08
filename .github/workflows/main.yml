@@ -1,0 +1,41 @@
+name: Build and Deploy Jekyll Site
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Setup Ruby
+      uses: actions/setup-ruby@v1
+      with:
+        ruby-version: 2.7 # substitua pela versão do Ruby compatível com seu projeto
+
+    - name: Install Bundler
+      run: gem install bundler
+
+    - name: Install Dependencies
+      run: bundle install
+
+    - name: Build Jekyll Site
+      run: bundle exec jekyll build
+
+    - name: Deploy to GitHub Pages
+      run: |
+        if [ -z "$GITHUB_TOKEN" ]; then
+          echo "Set the GITHUB_TOKEN secret in your repository settings."
+          exit 1
+        fi
+        git config --global user.name "GitHub Actions"
+        git config --global user.email "actions@users.noreply.github.com"
+        git checkout main # substitua "main" pela branch principal
+        git add .
+        git commit -m "Build and deploy Jekyll site"
+        git push origin main # substitua "main" pela branch principal
