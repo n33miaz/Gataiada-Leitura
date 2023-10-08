@@ -18,6 +18,9 @@ jobs:
       with:
         ruby-version: 2.7
 
+    - name: Debug Workspace
+      run: ls $GITHUB_WORKSPACE
+
     - name: Install Bundler
       run: gem install bundler
 
