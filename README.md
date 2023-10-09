@@ -2,7 +2,6 @@
 
 [![Instagram](https://img.shields.io/badge/Instagram-000?style=for-the-badge&logo=instagram&logoColor=FFF)](https://www.instagram.com/gataiadaleitura/)
 [![E-mail](https://img.shields.io/badge/-Email-000?style=for-the-badge&logo=gmail&logoColor=FFF)](mailto:marsupialeitura@gmail.com)
-[![Tumblr](https://img.shields.io/badge/-Tumblr-000?style=for-the-badge&logo=Tumblr&logoColor=FF)](https://gataiadaleitura.tumblr.com)
 
 - - -
 
@@ -40,7 +39,7 @@ O site foi criado para proporcionar uma experiência atraente e envolvente para 
 
 O feedback é crucial para melhorar nosso site, corrigindo erros técnicos, adicionando recursos inovadores e personalizando a experiência. Sua contribuição também constrói uma comunidade engajada de amantes de livros e gatos. Compartilhe suas ideias e ou problemas encontrados, na seção "[Issues](https://github.com/n33miaz/Gataiada-Leitura/issues)".
 
-### Ao criar um PR ([Pull Request](https://github.com/n33miaz/Gataiada-Leitura/pulls)), você pode:
+### Ao criar um [Pull Request](https://github.com/n33miaz/Gataiada-Leitura/pulls) (PR), você pode:
 
 - 📝 **Implementar Novas Funcionalidades:** Se você tem uma ideia inovadora para melhorar a experiência do usuário ou adicionar recursos cativantes, um PR é a maneira perfeita de implementá-lo.
 
