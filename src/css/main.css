@@ -5,6 +5,7 @@ main {
 main > img {
     position: absolute;
     margin: 35px;
+    margin-top: 45px;
     min-width: 95%;
     max-height: 70%;
     object-fit: cover;
@@ -13,11 +14,12 @@ main > img {
 main > h1 {
     position: absolute;
     max-width: 500px;
-    bottom: 185px;
+    bottom: 200px;
     right: 90px;
     font-family: 'More Sugar', sans-serif;
     font-size: 84px;
     text-transform: uppercase;
+    letter-spacing: 4px;
     line-height: 1;
     text-align: right;
     color: #fff;
@@ -31,7 +33,7 @@ main > p {
     padding-left: 22px;
     padding-right: 22px;
     min-width: 350px;
-    bottom: 85px;
+    bottom: 65px;
     right: 100px;
     font-family: 'Montserrat', sans-serif;
     font-size: 21px;
@@ -60,13 +62,4 @@ main > div > img {
     width: 40px;
     object-fit: contain;
     transform: rotate(25deg); 
-}
-
-body > div {
-    position: absolute;
-    background-color: #4A2C20;
-    width: 95%;
-    height: 35px;
-    margin: 35px;
-    top: 92vh;
 }

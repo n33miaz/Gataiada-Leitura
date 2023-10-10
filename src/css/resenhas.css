@@ -1,0 +1,43 @@
+section.resenhas {
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resenhas > h2 {
+    position: absolute;
+    top: 248vh;
+    font-family: 'More sugar', sans-serif;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #96634f;
+}
+
+.resenhas > div {
+    margin: 20px;
+    padding: 15px;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.resenhas > button {
+    margin: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 100%;
+    background-color: #96634f;
+    cursor: pointer;
+}
+
+.resenhas > button > img {
+    height: 20px;
+}
+
+#avancar {
+    transform: scaleX(-1);
+}

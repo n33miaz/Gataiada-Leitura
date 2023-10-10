@@ -1,0 +1,56 @@
+section.apresentacao {
+    height: 120vh;
+}
+
+.apresentacao > img {
+    position: absolute;
+    margin: 35px;
+    top: 115vh;
+    right: 0;
+    max-width: 35%;
+    min-height: 90%;
+    object-fit: cover;
+}
+
+.apresentacao > h2 {
+    position: absolute;
+    margin: 100px;
+    top: 120vh;
+    font-family: 'More Sugar', sans-serif;
+    font-size: 48px;
+    text-transform: uppercase;
+    text-align: left;
+    color: #96634F;
+}
+
+.apresentacao > p {
+    position: absolute;
+    margin: 100px;
+    top: 150vh;
+    max-width: 550px;
+    font-family: 'Montserrant', sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    color: #000;
+}
+
+.apresentacao > div {
+    position: absolute;
+    background-color: #73965F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 140px;
+    width: 140px;
+    top: 130vh;
+    right: 445px;
+    border-radius: 100%;
+    z-index: 1;
+}
+
+.apresentacao > div > img {
+    height: 95px;
+    width: 95px;
+    object-fit: contain;
+    transform: rotate(-24deg); 
+}
