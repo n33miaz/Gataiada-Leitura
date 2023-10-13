@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./src/css/apresentacao.css">
     <link rel="stylesheet" href="./src/css/resenhas.css">
     <link rel="stylesheet" href="./src/css/agradecimento.css">
+    <link rel="stylesheet" href="./src/css/feedback.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -78,16 +79,24 @@
         <div id="texto-agradecimento">
             <h2>Muito obrigado pelo apoio!</h1>
             <p><strong>Fale um pouco sobre o que achou do nosso trabalho, seu Feedback é muito valioso para nós.</strong></p>
-            <button><strong>Fazer um comentário</strong></button>
+            <button id="botao-feedback"><strong>Fazer um comentário</strong></button>
             <h3>Nosso contato:</h3>
             <div>
                 <img src="./src/assets/images/email-icone.svg" alt="icone e-mail">
-                <p><a href="https://www.example.com">marsupialeitura@gmail.com</a></p>
+                <p><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcSHvnwdpGRwpNrhmgkdswjVkqKcNvSnwCgVnfMmRqnZNLFtFDHCRHZmNmmBJtCMzvbxQmGzn" target="_blank">marsupialeitura@gmail.com</a></p>
             </div>
             <div>
                 <img src="./src/assets/images/instagram-icone.svg" alt="icone instagram">
-                <p><a href="https://www.example.com">@gataiadaleitura</a></p>
+                <p><a href="https://www.instagram.com/gataiadaleitura/" target="_blank">@gataiadaleitura</a></p>
             </div>
+        </div>
+        <div id="formulario-de-feedback" class="feedback-aberto">
+            <button><i class="fa-solid fa-circle-xmark fa-xl" style="color: #ff0000;"></i></button>
+            <h2>Feedback</h2>
+            <input id="nome-feedback" type="text">
+            <input id="assunto-feedback" type="text">
+            <input id="descricao-feedback" type="text">
+            <button id="botao-enviar-feedback">Enviar</button>
         </div>
     </section>
     <script src="./src/js/index.js"></script>

@@ -1,0 +1,77 @@
+#formulario-de-feedback {
+    padding: 50px;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 1);
+    top: 420vh;
+    left: 50%;
+    gap: 5px;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+    height: 50%;
+    z-index: 3;
+}
+
+#formulario-de-feedback > button {
+    position: absolute;
+    border: none;
+    cursor: pointer;
+    top: 15px;
+    left: 15px;
+}
+
+#formulario-de-feedback > h2 {
+    padding: 5px;
+    margin-bottom: 20px;
+    min-width: 180px;
+    background-color: #4A2C20;
+    font-family: "Montserrant", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    border: none;
+    color: #fff;
+}
+
+#formulario-de-feedback > #nome-feedback {
+    padding: 3px;
+    padding-left: 5px;
+    min-width: 100%;
+    min-height: 25px;
+}
+
+#formulario-de-feedback > #assunto-feedback {
+    padding: 3px;
+    padding-left: 5px;
+    min-width: 100%;
+    min-height: 25px;
+}
+
+#formulario-de-feedback > #descricao-feedback {
+    padding: 3px;
+    padding-left: 5px;
+    min-width: 100%;
+    min-height: 50%;
+}
+
+#formulario-de-feedback > #botao-enviar-feedback {
+    padding: 5px;
+    top: 88%;
+    left: 42%;
+    width: 15%;
+    background-color: #6A9650;
+    font-family: "Montserrant", sans-serif;
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    border: none;
+    color: #fff;
+}
+
+.feedback-aberto { 
+}
