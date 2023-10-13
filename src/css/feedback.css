@@ -1,10 +1,10 @@
-#formulario-de-feedback {
+.formulario-de-feedback {
     padding: 50px;
     position: absolute;
     background-color: #fff;
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 1);
     top: 420vh;
-    left: 50%;
+    left: -350px;
     gap: 5px;
     transform: translate(-50%, -50%);
     display: flex;
@@ -15,7 +15,11 @@
     z-index: 3;
 }
 
-#formulario-de-feedback > button {
+.feedback-aberto { 
+    left: 50%;
+}
+
+.formulario-de-feedback > button {
     position: absolute;
     border: none;
     cursor: pointer;
@@ -23,7 +27,7 @@
     left: 15px;
 }
 
-#formulario-de-feedback > h2 {
+.formulario-de-feedback > h2 {
     padding: 5px;
     margin-bottom: 20px;
     min-width: 180px;
@@ -37,41 +41,53 @@
     color: #fff;
 }
 
-#formulario-de-feedback > #nome-feedback {
+.formulario-de-feedback > div {
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    width: 100%;
+    height: 10%;
+}
+
+.formulario-de-feedback > div > .nome-feedback {
+    padding: 3px;
+    padding-left: 5px;
+    min-width: 49%;
+    min-height: 10%;
+}
+
+.formulario-de-feedback > div > .email-feedback {
+    padding: 3px;
+    padding-left: 5px;
+    min-width: 49%;
+    min-height: 10%;
+}
+
+.formulario-de-feedback > .assunto-feedback {
     padding: 3px;
     padding-left: 5px;
     min-width: 100%;
-    min-height: 25px;
+    min-height: 10%;
 }
 
-#formulario-de-feedback > #assunto-feedback {
-    padding: 3px;
-    padding-left: 5px;
-    min-width: 100%;
-    min-height: 25px;
-}
-
-#formulario-de-feedback > #descricao-feedback {
+.formulario-de-feedback > .descricao-feedback {
     padding: 3px;
     padding-left: 5px;
     min-width: 100%;
     min-height: 50%;
 }
 
-#formulario-de-feedback > #botao-enviar-feedback {
+.formulario-de-feedback > #botao-enviar-feedback {
     padding: 5px;
     top: 88%;
-    left: 42%;
-    width: 15%;
+    left: 45%;
+    width: 10%;
     background-color: #6A9650;
     font-family: "Montserrant", sans-serif;
-    font-size: 15px;
+    font-size: 10px;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 4px;
     border: none;
     color: #fff;
-}
-
-.feedback-aberto { 
 }
