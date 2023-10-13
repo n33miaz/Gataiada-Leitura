@@ -13,7 +13,7 @@ document.getElementById("botao-fechar-feedback").addEventListener("click", funct
 function mostrarPopup() {
     const popup = document.createElement("div");
     popup.className = "popup";
-    popup.innerHTML = "Feedback Enviado com Sucesso! <button id='fechar-popup'>Fechar</button>";
+    popup.innerHTML = "Feedback Enviado com Sucesso!";
     popup.style.position = "fixed";
     popup.style.top = "50%";
     popup.style.left = "50%";
@@ -35,6 +35,19 @@ function mostrarPopup() {
     document.body.appendChild(popup);
 };
 
-document.getElementById("botao-enviar-feedback").addEventListener("click", function() {
-    mostrarPopup();
+document.getElementById("botao-enviar-feedback").addEventListener("click", function(event) {
+    const nomeInput = document.querySelector(".nome-feedback");
+    const emailInput = document.querySelector(".email-feedback");
+    const assuntoInput = document.querySelector(".assunto-feedback");
+    const descricaoInput = document.querySelector(".descricao-feedback");
+    const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+
+    if (
+        nomeInput.value.trim() !== "" &&
+        emailRegex.test(emailInput.value.trim()) &&
+        assuntoInput.value.trim() !== "" &&
+        descricaoInput.value.trim() !== ""
+    ) {
+        mostrarPopup();
+    }
 });

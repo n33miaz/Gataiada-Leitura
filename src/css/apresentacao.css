@@ -27,10 +27,12 @@ section.apresentacao {
     position: absolute;
     margin: 100px;
     top: 150vh;
-    max-width: 550px;
+    max-width: 650px;
     font-family: 'Montserrant', sans-serif;
     font-size: 18px;
-    text-align: justify;
+    text-align: left;
+    letter-spacing: 2px;
+    line-height: 1.4;
     color: #000;
 }
 
