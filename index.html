@@ -80,7 +80,7 @@
         <div id="texto-agradecimento">
             <h2>Muito obrigado pelo apoio!</h1>
             <p><strong>Fale um pouco sobre o que achou do nosso trabalho, seu Feedback é muito valioso para nós.</strong></p>
-            <button id="botao-feedback"><strong>Fazer um comentário</strong></button>
+            <button id="botao-abrir-feedback"><strong>Fazer um comentário</strong></button>
             <h3>Nosso contato:</h3>
             <div>
                 <img src="./src/assets/images/email-icone.svg" alt="icone e-mail">
@@ -91,19 +91,20 @@
                 <p><a href="https://www.instagram.com/gataiadaleitura/" target="_blank">@gataiadaleitura</a></p>
             </div>
         </div>
-        <form class="formulario-de-feedback feedback-aberto">
-            <button><i class="fa-solid fa-circle-xmark fa-xl" style="color: #ff0000;"></i></button>
+        <form class="formulario-de-feedback">
+            <button id="botao-fechar-feedback"><i class="fa-solid fa-circle-xmark fa-xl" style="color: #ff0000;"></i></button>
             <h2>Feedback</h2>
             <div>
-                <input type="text" class="nome-feedback" required placeholder="Seu nome completo">
-                <input type="email" class="email-feedback" required placeholder="Email">
+                <input type="text" class="nome-feedback" placeholder="Seu nome completo">
+                <input type="email" class="email-feedback" placeholder="Email">
             </div>
-            <input type="text" class="assunto-feedback" required placeholder="Assunto">
-            <input type="text" class="descricao-feedback" required placeholder="Descrição">
+            <input type="text" class="assunto-feedback" placeholder="Assunto">
+            <input type="text" class="descricao-feedback" placeholder="Descrição">
             <button id="botao-enviar-feedback"><strong>Enviar</strong></button>
         </form>
     </section>
     <script src="./src/js/index.js"></script>
     <script src="./src/js/header.js"></script>
+    <script src="./src/js/feedback.js"></script>
 </body>
 </html>
