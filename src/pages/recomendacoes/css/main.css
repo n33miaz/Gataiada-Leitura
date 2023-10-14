@@ -6,6 +6,14 @@ main {
     justify-content: center;
 }
 
+body > img {
+    top: -7.5%;
+    right: 10%;
+    max-width: 13%;
+    position: absolute;
+    z-index: 2;
+}
+
 main > h1 {
     padding-top: 5%;
     width: 85%;
