@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/recomendacao.css">
 
     <script src="https://kit.fontawesome.com/46a2e05859.js" crossorigin="anonymous"></script>
 </head>
@@ -39,9 +40,25 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt deleniti iste maxime voluptatum nam explicabo aut, vitae minima doloribus dignissimos, fugiat soluta? Excepturi aut vero, sunt magni hic deserunt rerum.</p>
             </div>
         </div>
-        <button><strong>Recomendar um Livro</strong></button>
+        <button id="botao-abrir-recomendacao"><strong>Recomendar um Livro</strong></button>
     </main>
+    <form class="formulario-de-recomendacao">
+        <button id="botao-fechar-recomendacao"><i class="fa-solid fa-circle-xmark fa-xl" style="color: #ff0000;"></i></button>
+        <h2>Recomendação de Livro</h2>
+        <div>
+            <input type="text" class="nome-recomendacao" required placeholder="Nome Completo">
+            <input type="email" class="email-recomendacao" required placeholder="Email">
+        </div>
+        <input type="text" class="titulo-recomendacao" required placeholder="Título do Livro">
+        <input type="text" class="descricao-recomendacao" required placeholder="Descrição">
+        <div id="alerta">
+            <i class="fa-solid fa-circle-exclamation fa-2xl" style="color: #000000;"></i>
+            <h3>Para a segurança da nossa comunidade, sua recomendação será enviada a nossa equipe para análise, isso pode levar algumas horas. <br> <br> **contato do suporte: @lele_mias**</h3>
+        </div>
+        <button id="botao-enviar-recomendacao"><strong>Enviar</strong></button>
+    </form>
     <script src="./js/index.js"></script>
     <script src="./js/header.js"></script>
+    <script src="./js/recomendacao.js"></script>
 </body>
 </html>
