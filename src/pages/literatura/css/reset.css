@@ -8,6 +8,10 @@ ul {
     list-style: none;
 }
 
+html, body {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #e9e9e9;
 }
@@ -15,7 +19,7 @@ body {
 ::-webkit-scrollbar {
     width: 10px;
 }
-  
+
 ::-webkit-scrollbar-thumb {
     background: #4A2C20;
 }
