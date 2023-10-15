@@ -1,0 +1,62 @@
+section#historia {
+    height: 115vh;
+}
+
+#historia > img {
+    position: absolute;
+    top: 140vh;
+    left: 6%;
+    width: 40%;
+    max-height: 90%;
+    object-fit: cover;
+}
+
+#historia > div {
+    position: absolute;
+    background-color: #73965F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 145px;
+    width: 145px;
+    top: 165vh;
+    left: 40%;
+    border-radius: 100%;
+    z-index: 1;
+}
+
+#historia > div > img {
+    height: 95px;
+    width: 95px;
+    object-fit: contain;
+    transform: rotate(24deg); 
+}
+
+#historia > h1 {
+    padding: 0.5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    position: absolute;
+    top: 150vh;
+    right: 12%;
+    background-color: #96634f;
+    font-family: 'Montserrant', sans-serif;
+    font-size: 45px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #fff;
+}
+
+#historia > p {
+    position: absolute;
+    top: 170vh;
+    right: 5%;
+    max-width: 40%;
+    font-family: 'Montserrant', sans-serif;
+    font-size: 18px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #000;
+}

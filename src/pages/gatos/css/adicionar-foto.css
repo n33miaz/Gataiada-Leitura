@@ -1,4 +1,4 @@
-.formulario-de-recomendacao {
+.formulario-de-adicionar-foto {
     padding: 50px;
     position: absolute;
     background-color: #fff;
@@ -15,11 +15,11 @@
     z-index: 3;
 }
 
-.formulario-recomendacao-aberto { 
+.formulario-adicionar-foto-aberto { 
     left: 50%;
 }
 
-.formulario-de-recomendacao > #botao-fechar-recomendacao {
+.formulario-de-adicionar-foto > #botao-fechar-adicionar-foto {
     position: absolute;
     border: none;
     cursor: pointer;
@@ -27,7 +27,7 @@
     left: 15px;
 }
 
-.formulario-de-recomendacao > h2 {
+.formulario-de-adicionar-foto > h2 {
     padding: 1%;
     padding-left: 2%;
     padding-right: 2%;
@@ -44,7 +44,7 @@
     color: #fff;
 }
 
-.formulario-de-recomendacao > div {
+.formulario-de-adicionar-foto > div {
     display: flex;
     justify-content: center;
     gap: 2%;
@@ -52,35 +52,38 @@
     height: 10%;
 }
 
-.formulario-de-recomendacao > div > .nome-recomendacao {
+.formulario-de-adicionar-foto > div > .nome-adicionar-foto {
     padding: 3px;
     padding-left: 5px;
     min-width: 49%;
     min-height: 10%;
 }
 
-.formulario-de-recomendacao > div > .email-recomendacao {
+.formulario-de-adicionar-foto > div > .email-adicionar-foto {
     padding: 3px;
     padding-left: 5px;
     min-width: 49%;
     min-height: 10%;
 }
 
-.formulario-de-recomendacao > .titulo-recomendacao {
+.formulario-de-adicionar-foto > .titulo-adicionar-foto {
     padding: 3px;
     padding-left: 5px;
     min-width: 100%;
     min-height: 10%;
 }
 
-.formulario-de-recomendacao > .descricao-recomendacao {
-    padding: 3px;
-    padding-left: 5px;
+.formulario-de-adicionar-foto > #imagem {
     min-width: 100%;
     min-height: 40%;
 }
 
-.formulario-de-recomendacao > #alerta {
+.formulario-de-adicionar-foto > #imagem > button {
+    min-width: 100%;
+    min-height: 40%;
+}
+
+.formulario-de-adicionar-foto > #alerta {
     margin: 1%;
     padding: 5%;
     gap: 5%;
@@ -91,7 +94,7 @@
     border-radius: 15px;
 }
 
-.formulario-de-recomendacao > #alerta > h3 {
+.formulario-de-adicionar-foto > #alerta > h3 {
     font-family: "Montserrant", sans-serif;
     font-size: 13px;
     text-align: center;
@@ -99,7 +102,7 @@
     color: #000;
 }
 
-.formulario-de-recomendacao > #botao-enviar-recomendacao {
+.formulario-de-adicionar-foto > #botao-enviar-adicionar-foto {
     padding: 1%;
     padding-left: 1.5%;
     top: 90%;

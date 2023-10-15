@@ -66,16 +66,26 @@ main > .recomendacoes > div > p {
     color: #fff;
 }
 
-main > button {
-    margin: 1%;
+main > #recomendar {
     background-color: #96634f;
-    height: 7%;
+    height: 8%;
     width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main > #recomendar > button {
+    padding: 0.5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: #4A2C20;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     text-transform: uppercase;
+    text-align: center;
     letter-spacing: 5px;
-    color: #000;
+    color: #fff;
     cursor: pointer;
     border: none;
 }

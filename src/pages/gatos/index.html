@@ -9,10 +9,13 @@
 
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/adicionar-foto.css">
 
     <script src="https://kit.fontawesome.com/46a2e05859.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <img src="../../assets/images/fundo-de-patinhas.png" alt="Fundo de patinhas de gatos">
     <header>
         <button id="principal"><i class="fa-solid fa-house fa-xl" style="color: #fff;"></i></button>
         <button id="recomendacoes"><i class="fa-solid fa-book-open fa-xl" style="color: #fff;"></i></button>
@@ -20,9 +23,31 @@
         <button id="gatos" class="selecionado"><i class="fa-solid fa-paw fa-xl" style="color: #fff;"></i></button>
     </header>
     <main>
-        
+        <button id="voltar-ao-topo"><i class="fa-solid fa-arrow-up fa-xl" style="color: #ffffff;"></i></button>
+        <h1>Gatos, gatos e gatos</h1>
+        <img src="../../assets/images/grid-gatinhos.png" alt="Fotos de gatos">
+        <button id="botao-abrir-adicionar-foto"><strong>Adicionar foto</strong></button>
     </main>
+    <form class="formulario-de-adicionar-foto">
+        <button id="botao-fechar-adicionar-foto"><i class="fa-solid fa-circle-xmark fa-xl" style="color: #ff0000;"></i></button>
+        <h2>Adicionar Foto</h2>
+        <div>
+            <input type="text" class="nome-adicionar-foto" required placeholder="Nome Completo">
+            <input type="email" class="email-adicionar-foto" required placeholder="Email">
+        </div>
+        <input type="text" class="titulo-adicionar-foto" required placeholder="Nome do Gato">
+        <div id="imagem">
+            <button><i class="fa-solid fa-upload fa-2xl" style="color: #000000;"></i></button>
+        </div>
+        <div id="alerta">
+            <i class="fa-solid fa-circle-exclamation fa-2xl" style="color: #000000;"></i>
+            <h3>Para a segurança da nossa comunidade, sua foto será enviada a nossa equipe para análise, isso pode levar algumas horas. <br> <br> **contato do suporte: @lele_mias**</h3>
+        </div>
+        <button id="botao-enviar-adicionar-foto"><strong>Enviar</strong></button>
+    </form>
     <script src="./js/index.js"></script>
     <script src="./js/header.js"></script>
+    <script src="./js/voltar-ao-topo.js"></script>
+    <script src="./js/adicionar-foto.js"></script>
 </body>
 </html>
