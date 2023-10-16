@@ -23,11 +23,14 @@ section.apresentacao {
     color: #96634F;
 }
 
-.apresentacao > p {
+.apresentacao > #texto-apresentacao {
     position: absolute;
     margin: 100px;
-    top: 150vh;
+    top: 145vh;
     max-width: 650px;
+}
+
+.apresentacao > #texto-apresentacao > p {
     font-family: 'Montserrant', sans-serif;
     font-size: 18px;
     text-align: left;
@@ -36,7 +39,7 @@ section.apresentacao {
     color: #000;
 }
 
-.apresentacao > div {
+.apresentacao > #patinha {
     position: absolute;
     background-color: #73965F;
     display: flex;
@@ -50,7 +53,7 @@ section.apresentacao {
     z-index: 1;
 }
 
-.apresentacao > div > img {
+.apresentacao > #patinha > img {
     height: 95px;
     width: 95px;
     object-fit: contain;

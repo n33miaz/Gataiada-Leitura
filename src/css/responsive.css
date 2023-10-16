@@ -1,0 +1,176 @@
+@media (max-width: 926px) {
+    /* menu de navegação (header.css) */
+    body > header {
+        top: auto;
+        bottom: 0;
+        left: 20%;
+        height: 5%;
+        width: 60%;
+        flex-direction: row;
+        align-items: center;
+    }
+    /* primeira parte da página (main.css) */
+    main {
+        display: flex;
+        justify-content: center;
+    }
+    main > img {
+        position: absolute;
+        margin: 0;
+        width: 110%;
+        height: 90%;
+        object-fit: cover;
+    }
+    main > h1 {
+        top: 10%;
+        right: 0;
+        font-size: 45px;
+        text-align: center;
+    }
+    main > p {
+        max-width: 90%;
+        bottom: 15%;
+        right: auto;
+        text-align: center;
+    }
+    main > div {
+        top: 5%;
+        right: 5%;
+    }
+    /* segunda parte da página (apresentacao.css) */
+    section.apresentacao {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .apresentacao > img {
+        margin: 0;
+        top: 115vh;
+        right: auto;
+        min-width: 100%;
+        min-height: 90%;
+    }
+    .apresentacao > h2 {
+        margin: 0;
+        top: 125vh;
+        font-size: 35px;
+        text-align: center;
+        text-shadow: 0px 0px 10px rgb(0, 0, 1);
+    }
+    .apresentacao > #texto-apresentacao {
+        margin: 2%;
+        background-color: rgb(0, 0, 1);
+        top: 140vh;
+        max-height: 60%;
+        border-radius: 1%;
+    }
+    .apresentacao > #texto-apresentacao > p {
+        margin: 2%;
+        font-size: 20px;
+        text-align: center;
+        color: #fff;
+        max-height: 60%;
+    }
+    /* terceira parte da página (resenhas.css) */
+    /* quarta e ultima parte da página (agradecimento.css) */
+    .agradecimento > img {
+        width: 100%;
+        height: 40%;
+        top: 435vh;
+        right: auto;
+    }
+    .agradecimento > #patinha {
+        right: -150px;
+    }
+    .agradecimento > #texto-agradecimento {
+        justify-content: center;
+        align-items: center;
+        top: 380vh;
+        left: auto;
+        width: 100%;
+    }
+    #texto-agradecimento > h2 {
+        margin: 0;
+        text-align: center;
+        font-size: 45px;
+    }
+    #texto-agradecimento > p {
+        margin: 5%;
+        margin-top: 10%;
+        margin-bottom: 5%;
+        font-size: 23px;
+    }
+    #texto-agradecimento > button {
+        padding: 1%;
+    }
+    #texto-agradecimento > h3 {
+        margin: 0;
+        margin-top: 15%;
+        margin-bottom: 10%;
+        font-size: 25px;
+    }
+    #texto-agradecimento > div {
+        margin-left: 0;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+    #texto-agradecimento > div > p {
+        margin-top: 0.5%;
+    }
+    /* formulario de feedback */
+    .formulario-de-feedback {
+        padding: 5%;
+        width: 90%;
+        height: 45%;
+        z-index: 1;
+    }
+    .formulario-de-feedback > #botao-enviar-feedback {
+        top: 90%;
+        left: 40%;
+        min-width: 20%;
+    }
+}
+@media (max-width: 844px) {
+    /* menu de navegação (header.css) */
+    body > header {
+        height: 7%;
+    }
+    /* primeira parte da página (main.css) */
+    main > h1 {
+        top: 13%;
+    }
+    main > p {
+        bottom: 15%;
+        font-size: 18px;
+    }
+    main > div {
+        top: 3%;
+        right: 3%;
+    }
+    /* segunda parte da página (apresentacao.css) */
+    .apresentacao > h2 {
+        font-size: 30px;
+    }
+    .apresentacao > #texto-apresentacao > p {
+        font-size: 17px;
+    }
+    /* terceira parte da página (resenhas.css) */
+    /* quarta e ultima parte da página (agradecimento.css) */
+    .agradecimento > img {
+        top: 445vh;
+    }
+    #texto-agradecimento > h2 {
+        font-size: 40px;
+    }
+    #texto-agradecimento > h3 {
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+}
+@media (max-width: 780px) {
+    /* quarta e ultima parte da página (agradecimento.css) */
+    #texto-agradecimento > h2 {
+    font-size: 35px;
+    }
+}
