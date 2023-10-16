@@ -1,0 +1,28 @@
+@media (max-width: 926px) {
+    /* menu de navegação (header.css) */
+    body > header {
+        top: auto;
+        bottom: 0;
+        left: 20%;
+        height: 5%;
+        width: 60%;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    /* botão de voltar ao topo */
+    #voltar-ao-topo {
+        margin: 3%;
+        padding: 3%;
+        z-index: 2;
+    }
+}
+@media (max-width: 844px) {
+    /* menu de navegação (header.css) */
+    body > header {
+        height: 7%;
+    }
+    
+}
+@media (max-width: 780px) {
+}
