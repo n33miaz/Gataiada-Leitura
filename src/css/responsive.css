@@ -130,6 +130,12 @@
         left: 40%;
         min-width: 20%;
     }
+    /* botão de voltar ao topo */
+    #voltar-ao-topo {
+        margin: 3%;
+        padding: 3%;
+        z-index: 2;
+    }
 }
 @media (max-width: 844px) {
     /* menu de navegação (header.css) */
