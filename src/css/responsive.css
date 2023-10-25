@@ -74,13 +74,14 @@
     /* terceira parte da página (resenhas.css) */
     /* quarta e ultima parte da página (agradecimento.css) */
     .agradecimento > img {
-        width: 100%;
-        height: 40%;
-        top: 435vh;
+        width: 90%;
+        height: 300px;
         right: auto;
+        left: 5%;
     }
     .agradecimento > #patinha {
-        right: -150px;
+        right: -1150px;
+        display: none;
     }
     .agradecimento > #texto-agradecimento {
         justify-content: center;

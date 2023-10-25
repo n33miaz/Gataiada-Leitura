@@ -8,6 +8,7 @@ main > img {
     min-width: 95%;
     max-height: 70%;
     object-fit: cover;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 main > h1 {
@@ -28,6 +29,7 @@ main > h1 {
 main > p {
     position: absolute;
     background-color: #96634f;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     padding: 5px;
     padding-left: 22px;
     padding-right: 22px;
@@ -45,6 +47,7 @@ main > p {
 main > div {
     position: absolute;
     background-color: #73965F;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     display: flex;
     justify-content: center;
     align-items: center;

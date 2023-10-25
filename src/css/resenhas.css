@@ -1,7 +1,7 @@
 section.resenhas {
     height: 115vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -19,18 +19,21 @@ section.resenhas {
     margin-top: 45px;
     padding: 15px;
     height: 70%;
+    width: 30%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .resenhas > button {
+    display: flex;
     margin: 65px;
-    padding: 10px;
+    padding: 0.5%;
     border: none;
-    border-radius: 100%;
+    border-radius: 50%;
     background-color: #96634f;
     cursor: pointer;
 }
@@ -41,4 +44,202 @@ section.resenhas {
 
 #avancar {
     transform: scaleX(-1);
+}
+
+/* resenhas (img e txt) */
+
+.resenha-1 {
+    gap: 2.5%;
+}
+
+.resenha-1 > img {
+    top: 0;
+    height: 40%;
+    object-fit: cover;
+}
+
+.resenha-1 > h3 {
+    font-family: 'Montserrant', sans-serif;
+    font-size: 22.5px;
+}
+
+.resenha-1 > .texto {
+    height: 50%;
+    overflow: hidden;
+    position: relative;
+}
+
+.resenha-1 > .texto > p {
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+}
+
+.resenha-1 > .botoes-resenha {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5%;
+}
+
+.resenha-1 > .botoes-resenha > button {
+    padding: 1.5%;
+    min-width: 60%;
+    background-color: #73965F;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border: none;
+    cursor: pointer;
+}
+
+.resenha-1 > .botoes-resenha > button > a {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Montserrant", sans-serif;
+    font-size: 95%;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.resenha-1 > .botoes-resenha > #ler-mais {
+    background-color: #413B39;
+}
+
+/* resenha 2 */
+
+.resenha-2 {
+    gap: 2.5%;
+}
+
+.resenha-2 > img {
+    top: 0;
+    height: 40%;
+    object-fit: cover;
+}
+
+.resenha-2 > h3 {
+    font-family: 'Montserrant', sans-serif;
+    font-size: 22.5px;
+    text-align: center;
+    max-width: 250px;
+}
+
+.resenha-2 > .texto {
+    height: 50%;
+    overflow: hidden;
+    position: relative;
+    text-align: justify;
+}
+
+.resenha-2 > .texto > p {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.resenha-2 > .botoes-resenha {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5%;
+}
+
+.resenha-2 > .botoes-resenha > button {
+    padding: 1.5%;
+    min-width: 60%;
+    background-color: #73965F;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border: none;
+    cursor: pointer;
+}
+
+.resenha-2 > .botoes-resenha > button > a {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Montserrant", sans-serif;
+    font-size: 95%;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.resenha-2 > .botoes-resenha > #ler-mais {
+    background-color: #413B39;
+}
+
+/* resenha 3 */
+
+.resenha-3 {
+    gap: 2.5%;
+}
+
+.resenha-3 > img {
+    top: 0;
+    height: 40%;
+    object-fit: cover;
+}
+
+.resenha-3 > h3 {
+    font-family: 'Montserrant', sans-serif;
+    font-size: 22.5px;
+    text-align: center;
+}
+
+.resenha-3 > .texto {
+    height: 40%;
+    overflow: hidden;
+    position: relative;
+}
+
+.resenha-3 > .texto > p {
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+}
+
+.resenha-3 > .botoes-resenha {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5%;
+}
+
+.resenha-3 > .botoes-resenha > button {
+    padding: 1.5%;
+    min-width: 60%;
+    background-color: #73965F;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border: none;
+    cursor: pointer;
+}
+
+.resenha-3 > .botoes-resenha > button > a {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Montserrant", sans-serif;
+    font-size: 95%;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.botoes-resenha > #ler-mais {
+    background-color: #413B39;
+    min-width: 70%;
+    transition: opacity 0.3s;
+}
+#ler-mais:hover {
+    opacity: 70%;
+}
+
+
+.botoes-resenha > #baixar {
+    background-color: #73965F;
+    min-width: 70%;
+    transition: opacity 0.3s;
+}
+#baixar:hover {
+    opacity: 70%;
 }

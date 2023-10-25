@@ -80,6 +80,7 @@ main > #recomendar > button {
     padding-left: 2%;
     padding-right: 2%;
     background-color: #4A2C20;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     text-transform: uppercase;
@@ -88,4 +89,8 @@ main > #recomendar > button {
     color: #fff;
     cursor: pointer;
     border: none;
+    transition: opacity 0.3s;
+}
+main > #recomendar > button:hover {
+    opacity: 80%;
 }

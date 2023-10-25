@@ -47,6 +47,10 @@ main > button {
     text-align: center;
     letter-spacing: 4px;
     cursor: pointer;
+    transition: opacity 0.3s;
+}
+main > button:hover {
+    opacity: 95%;
 }
 
 #voltar-ao-topo {
