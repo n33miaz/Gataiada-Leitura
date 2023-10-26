@@ -14,12 +14,20 @@ section.resenhas {
     color: #96634f;
 }
 
-.resenhas > div {
+.resenhas > #secao-resenhas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.resenhas > #secao-resenhas > div {
     margin: 25px;
     margin-top: 45px;
     padding: 15px;
     height: 70%;
-    width: 30%;
+    width: 35%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -187,7 +195,7 @@ section.resenhas {
 }
 
 .resenha-3 > .texto {
-    height: 40%;
+    height: 50%;
     overflow: hidden;
     position: relative;
 }
@@ -233,7 +241,6 @@ section.resenhas {
 #ler-mais:hover {
     opacity: 70%;
 }
-
 
 .botoes-resenha > #baixar {
     background-color: #73965F;
